@@ -17,4 +17,8 @@ router.get('/create', createController.get_create_birds);
 
 router.post('/create', createController.post_create_birds);
 
+router.get('/thanks', function (req, res, next) {
+  res.render('thanks', { Title: 'word' } );
+});
+
   module.exports = router;

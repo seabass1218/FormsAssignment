@@ -1,15 +1,15 @@
 const axios = require('axios');
 
-/*exports.get_birds = function(req, res) {
+exports.get_birds = function(req, res) {
     axios.get('https://jsonplaceholder.typicode.com/todos/')
       .then(function (response) {
         res.render('/birds', { birds: response.data });
       })
-}*/
+}
 
-/*exports.get_create_birds = function(req, res) {
+exports.get_create_birds = function(req, res) {
     res.render('birds');
-}*/
+}
 
 
 exports.post_create_birds = function(req, res) {
